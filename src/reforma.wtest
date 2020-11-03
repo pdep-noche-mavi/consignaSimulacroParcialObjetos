@@ -1,0 +1,14 @@
+import reforma.*
+describe "test reforma" {
+
+const granLote = "completar"
+const miniLote = "completar"
+
+// Acordate de hacer como mínimo un test por cada punto y clase de equivalencia significativa
+
+test "El porcentaje de lotes con producción suficiente se calcula correctamente ..."{
+	graboland.agregarLote(granLote)
+	graboland.agregarLote(miniLote)
+	assert.equals(1/2, graboland.porcentajeLotesProduccionSuficiente())
+	}
+}
